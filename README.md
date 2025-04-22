@@ -26,12 +26,23 @@ The following page should appear:
 ```bash
 sudo apt-get install ros-VERSION-velodyne
 ```
+#### f) Clone or download the ROS-Velodyne Drivers
+
+
+ 1. Clone the Velodyne ROS 2 Repository
+
+```bash
+cd ~/ros2_vp/src/
+git clone https://github.com/ros-drivers/velodyne-ros2.git
+```
+
+
 
 ## Section 1: Workspace Setup
 1. Source Your ROS 2 Workspace
 
 ```bash
-source ~/ros2_ws/install/setup.bash
+source ~/ros2_vp/install/setup.bash
 ```
 2. Navigate to Your Project Directory
 a) Go to the velodyne-ros2 package directory
